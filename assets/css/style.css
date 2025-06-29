@@ -118,7 +118,7 @@ body {
 
 /* Style for image on About page */
 .about-image {
-    max-width: 250px; /* Reverted to original size */
+    max-width: 150px; /* Changed back to the smaller size */
     border-radius: 10px;
     float: left;
     margin-right: 1.5rem;
