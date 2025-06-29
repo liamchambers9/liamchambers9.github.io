@@ -1,13 +1,22 @@
 # _config.yml
 
 # Site Info
-title: My Blog 
-author: Liam Chambers
-description: "A blog about my journey, projects, and thoughts."
+title: Liam Chambers' Blog
+author:
+  name: Liam Chambers
+  avatar: /assets/avatar.png # Add an image named avatar.png to your assets folder
+  bio: "Life Long Learning Documented."
+  social:
+    - name: YouTube
+      url: https://www.youtube.com/@LiamChambers
+    - name: X
+      url: https://x.com/LiamChambrs
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/liamchambers/
 
 # Theme
-theme: jekyll-theme-minimal # A clean, simple, and popular theme. You can always change this later!
+theme: jekyll-theme-minimal
 
-# This is required for GitHub Pages to correctly find your site's URL
-baseurl: "" # Just keep this empty
+# This is required for GitHub Pages
+baseurl: "" # Keep this empty
 url: "https://liamchambers9.github.io" # Don't forget to replace with your site's URL
