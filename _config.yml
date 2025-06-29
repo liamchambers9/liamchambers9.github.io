@@ -20,3 +20,9 @@ theme: jekyll-theme-minimal
 # This is required for GitHub Pages
 baseurl: "" # Keep this empty
 url: "https://liamchambers9.github.io" # Don't forget to replace with your site's URL
+
+# Add this new section
+collections:
+  projects:
+    output: true
+
