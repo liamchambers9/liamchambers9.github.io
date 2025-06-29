@@ -1,0 +1,13 @@
+# _config.yml
+
+# Site Info
+title: My Blog 
+author: Liam Chambers
+description: "A blog about my journey, projects, and thoughts."
+
+# Theme
+theme: jekyll-theme-minimal # A clean, simple, and popular theme. You can always change this later!
+
+# This is required for GitHub Pages to correctly find your site's URL
+baseurl: "" # Just keep this empty
+url: "https://your-username.github.io" # Don't forget to replace with your site's URL
