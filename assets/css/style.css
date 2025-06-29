@@ -106,7 +106,7 @@ body {
 
 /* Style for image on About page */
 .about-image {
-    max-width: 150px; /* Changed from 250px to 150px */
+    max-width: 250px; /* Reverted to original size */
     border-radius: 10px;
     float: left;
     margin-right: 1.5rem;
