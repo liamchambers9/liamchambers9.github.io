@@ -49,6 +49,7 @@ body {
 .sidebar-content {
     position: sticky;
     top: 2rem;
+    text-align: center; /* Center the top part of the sidebar */
 }
 
 .author-name {
@@ -60,6 +61,10 @@ body {
     font-size: 0.9rem;
     color: var(--text-color);
     margin-bottom: 2rem;
+}
+
+.main-nav, .social-links {
+    text-align: left; /* Left-align the nav and social links for clarity */
 }
 
 .main-nav {
@@ -102,6 +107,13 @@ body {
 /* Main Content Styles */
 .main-content {
     padding: 2rem;
+}
+
+/* This is a "clearfix" to contain the floated image correctly. */
+.main-content::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* Style for image on About page */
