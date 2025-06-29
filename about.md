@@ -5,7 +5,7 @@ title: About Me
 
 Liam is an upcoming security engineer with a well built foundation in security principles and hands-on experience. Liam is currently pursuing a Bachelors degree in Cybersecurity at Eastern Michigan University while gaining  experience as a Security Engineer Intern at Workiva.
 
-<img src="/assets/liamsmediapfp.jpg" alt="A photo of Liam Chambers" class="about-image">
+<img src="/assets/liamrooftop.jpeg" alt="A photo of Liam Chambers" class="about-image">
 
 ## Mission
 
