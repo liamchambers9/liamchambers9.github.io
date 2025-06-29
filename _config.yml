@@ -4,7 +4,7 @@
 title: Liam Chambers' Blog
 author:
   name: Liam Chambers
-  avatar:  # Add an image named avatar.png to your assets folder
+  avatar: /assets/liamsmediapfp.jpg # Add an image named avatar.png to your assets folder
   bio: "Life Long Learning Documented."
   social:
     - name: YouTube
