@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "A try at posting "
-date: 2025-06-29
+date: 2025-06-28
 thumbnail: /assets/your-thumbnail-image.jpg
 ---
 
