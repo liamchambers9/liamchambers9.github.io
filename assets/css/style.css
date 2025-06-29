@@ -49,7 +49,7 @@ body {
 .sidebar-content {
     position: sticky;
     top: 2rem;
-    text-align: center; /* Center the top part of the sidebar */
+    text-align: center;
 }
 
 .author-name {
@@ -64,7 +64,7 @@ body {
 }
 
 .main-nav, .social-links {
-    text-align: left; /* Left-align the nav and social links for clarity */
+    text-align: left;
 }
 
 .main-nav {
@@ -109,20 +109,22 @@ body {
     padding: 2rem;
 }
 
-/* This is a "clearfix" to contain the floated image correctly. */
-.main-content::after {
-    content: "";
-    display: table;
-    clear: both;
+/* NEW Flexbox styles for the About page */
+.about-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
 }
 
-/* Style for image on About page */
 .about-image {
-    max-width: 150px; /* Changed back to the smaller size */
+    width: 120px; /* Set a smaller fixed width */
+    height: auto;
     border-radius: 10px;
-    float: left;
-    margin-right: 1.5rem;
-    margin-bottom: 1rem;
+    flex-shrink: 0; /* Prevents the image from shrinking */
+}
+
+.about-text h2 {
+    margin-top: 0; /* Remove extra space above the heading */
 }
 
 .main-content h1, .main-content h2, .main-content h3 {
@@ -134,13 +136,14 @@ body {
     padding: 0;
 }
 
-.main-content li {
+/* Styles for blog post list on homepage */
+.main-content ul li {
     margin-bottom: 2rem;
     border-bottom: 1px solid var(--border-color);
     padding-bottom: 1.5rem;
 }
 
-.main-content li:last-child {
+.main-content ul li:last-child {
     border-bottom: none;
 }
 
