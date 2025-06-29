@@ -1,26 +1,45 @@
 <!-- _layouts/default.html -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} | {{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <script src="{{ '/assets/js/theme.js' | relative_url }}" defer></script>
 </head>
 <body>
-    <header>
-        <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
-        <nav>
-            <a href="{{ "/" | relative_url }}">Blog</a>
-            <a href="{{ "/about" | relative_url }}">About</a>
-            <a href="{{ "/projects" | relative_url }}">Projects</a>
-        </nav>
-    </header>
-    <main>
-        {{ content }}
-    </main>
-    <footer>
-        <p>&copy; {{ "now" | date: "%Y" }} {{ site.author }}</p>
-    </footer>
+    <div class="container">
+        <!-- Left Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-content">
+                <img src="{{ site.author.avatar | relative_url }}" alt="Author Avatar" class="avatar">
+                <h1 class="author-name">{{ site.author.name }}</h1>
+                <p class="author-bio">{{ site.author.bio }}</p>
+                <nav class="main-nav">
+                    <a href="{{ "/" | relative_url }}">Blog</a>
+                    <a href="{{ "/about" | relative_url }}">About</a>
+                    <a href="{{ "/projects" | relative_url }}">Projects</a>
+                </nav>
+                <div class="social-links">
+                    <h2>Connect</h2>
+                    <ul>
+                        {% for social in site.author.social %}
+                        <li><a href="{{ social.url }}" target="_blank" rel="noopener noreferrer">{{ social.name }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <button id="theme-toggle" class="theme-toggle">Toggle Theme</button>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            {{ content }}
+            <footer class="site-footer">
+                <p>&copy; {{ "now" | date: "%Y" }} {{ site.author.name }}</p>
+            </footer>
+        </main>
+    </div>
 </body>
 </html>
