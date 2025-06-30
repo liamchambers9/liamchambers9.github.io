@@ -26,3 +26,7 @@ collections:
   projects:
     output: true
 
+    collections:
+  posts:
+    output: true
+
