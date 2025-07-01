@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Building a Live Honeypot in Microsoft Azure
-date: 2023-10-16
+date: 2024-06-03
 ---
 # How to Create a Bootable Kali Linux USB Drive with Persistence
 
