@@ -2,7 +2,7 @@
 layout: default
 title: "Microsoft Azure Cloud Detection Lab"
 date: 2023-09-17
-thumbnail: /assets/cool-app-thumb.png # Path to your thumbnail
+thumbnail: /assets/AzureDetectionlab.webp # Path to your thumbnail
 ---
 
 As a student studying information assurance and cybersecurity, I find it imperative to start getting experience in Security Information and Event Management (SIEM). This is due to the fact that SIEM is a critical tool in the detection, analysis, and response to security incidents. This article is intended to document my experience of building out a Microsoft Azure Cloud Detection Lab. Before we get started this lab was explained by CyberWox Academy and was similarly followed along by me. If you are just getting started with your journey in Cybersecurity and interested in building incredible relationships with a great community I strongly encourage you to give them a visit.
