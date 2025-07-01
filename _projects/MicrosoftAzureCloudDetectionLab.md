@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "A Really Cool App I Built"
+title: "Microsoft Azure Cloud Detection Lab"
 date: 2023-09-17
 thumbnail: /assets/cool-app-thumb.png # Path to your thumbnail
 ---
