@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Creating a Kali Linux Bootable Drive
+title: File Path Traversal - Simple Case 
 date: 2025-06-14
 ---
 
