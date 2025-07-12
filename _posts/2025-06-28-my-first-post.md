@@ -1,11 +1,25 @@
 ---
 layout: default
-title: "My First Awesome Post"
+title: "My Why"
 date: 2025-06-28 10:00:00 -0500
 # You can add other variables like categories or a thumbnail
-thumbnail: /assets/images/post1-thumb.jpg
+thumbnail: /assets/images/why.png
 ---
 
-This is the beginning of my post content. The text here will become the `post.excerpt` on the homepage.
+It's the question that haunts many of us at the beginning of our careers: "In a world where you can do anything, why this?" For a while, I had no satisfactory answer. I'd give myself a polished, safe answer like, "I like technology and I want to keep it safe." But that was hollow, and I knew that kind of answer would never get me through the tough days. To find my real "why", I had to look at how this journey from the viewpoint of the person it has shaped me to become.
 
-You can continue writing your post content here using Markdown.
+The spark first happened my senior year of high school. I wasn’t the best student, but I knew that I was capable of doing more. The problem was, I didn't have the grades or the funds for a typical four-year college. I was stuck. Then, in my last semester of senior year, I found myself in a web development course. My teacher had a passion for technology that was contagious. He encouraged creativity, and his mission was to make us see the endlessness of possibility in the world utilizing technology. During Cybersecurity Awareness Month, he gave us a magazine that described the important role that security professionals have. I still have it.
+
+After graduation, I took a leap of faith. I moved to a new state with a friend, with my family's support under the condition that I do university online. After a year of general studies, the time had come to choose a major. I considered everything from Finance to Construction Management, but nothing appeared to fit. Lost, I decided to move back home and get serious about my future.
+
+That's when I spotted it. On my bookshelf was the very same cybersecurity magazine from high school. I opened it, and the spark from my senior year reignited. I dove into research, started building small projects and homelabs, and found the work was precisely the right blend of challenging and rewarding. I chose to study cybersecurity that sophomore year and have never looked back.
+
+But choosing the major was just the beginning. The field demanded that I turn into what I never imagined I would. Cybersecurity was not a subtopic of computer science; it was a mission. I took full ownership of my education, and my grades flourished. I took ownership of the cost, earning thousands of dollars in scholarship. I had to be proactive, finding out what skills the employers wanted and working relentlessly to obtain them. I had to build a personal brand and share my learning journey in public with the world without which I truly don’t believe I would have had the opportunities I’ve had. 
+
+So, my "why" for cybersecurity is so much more than a passion for technology. It's about the person this journey has developed me into.
+
+The technical world is constantly changing. No two projects are alike, and new variables constantly present themselves. Some might find that to be a source of stress, but I find it to be an opportunity to use creativity in your work. This constant change has not only made me a better student but has fundamentally changed the way I approach life as a whole.
+
+> It reminds me of a quote by Heraclitus: "No man ever steps in the same river twice, for it's not the same river and he's not the same man."
+
+My journey is mine. Yours will not be like your friends', your family's, or even your heroes. Embrace that. The journey will call for your own creativity, and the individual you will become will ultimately be your own "why."
