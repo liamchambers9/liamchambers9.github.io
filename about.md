@@ -28,4 +28,4 @@ Technical aspects of security that excite me are:
 * **Security Automation:** Developing automated solutions to streamline security processes.
 
 ## Personal Interests
-Outside of professional and academic pursuits, Liam enjoys staying active and engaged with the community. During his free time, Liam loves to explore New York City, go for runs, and participate in local events.
+Outside of professional and academic pursuits, I enjoy exploring new parks in New York City, go for runs, and meeting new people.
