@@ -7,8 +7,8 @@ author:
   # avatar: /assets/liamsmediapfp1.jpg # Add an image named avatar.png to your assets folder
   bio: "Life Long Learning Documented."
   social:
-    - name: YouTube
-      url: https://www.youtube.com/@LiamChambers.
+ #   - name: YouTube
+ #     url: https://www.youtube.com/@LiamChambers.
     - name: X
       url: https://x.com/LiamChambrs
     - name: LinkedIn
