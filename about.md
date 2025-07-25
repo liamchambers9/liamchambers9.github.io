@@ -3,19 +3,22 @@ layout: default
 title: About Me
 ---
 
-Hey I'm Liam!
-
-I am passionate about technology with a well built foundation in security principles and hands-on experience. Currently, I am pursuing a Bachelors degree in Cybersecurity at Eastern Michigan University while gaining experience as a Security Engineer Intern at Workiva.
+Our reliance on technology almost as a 'fifth limb' presents incredible opprotunities and on the other side of the coin, unique vulnerabilities. The intricate dance of safeguarding modern businesses, tools, machines and life as we know is a facinating challenge I'm driven to meet. Currently, I'm a senior pursuing a Bachelors degree in Cybersecurity at Eastern Michigan University while gaining experience as a Security Engineer Intern at Workiva.
 
 <img src="/assets/liamrooftop.jpeg" alt="A photo of Liam Chambers" class="about-image">
+
 
 ## Mission
 
 I'm driven by a core belief that ***how you do one thing is how you do everything***, This idea makes me passionate about pursuing holistic personal development and sharing that journey with others. On this journey, I find meaning by empowering and inspiring people through transparently documenting my process of learning and growth across several facets of my life. My work involves demystifying the complexities of skill acquisition and personal improvement.
 
 
+
 My current mission is to encourage fellow lifelong learners to step into the unknown and carve out unique path to personal success.
 > Success = the progressive realization of a worthy ideal - Earl Nightingale
+
+
+
 
 ## Professional Interests
 Technical aspects of security that excite me are:
