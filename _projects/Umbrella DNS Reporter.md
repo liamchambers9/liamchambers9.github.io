@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Umbrella DNS Reporter"
-date: 2025-7-25
+date: 2025-07-25
 thumbnail: /assets/dns.jpg # Path to your thumbnail
 ---
 
