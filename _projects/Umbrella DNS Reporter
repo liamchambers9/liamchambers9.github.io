@@ -4,3 +4,26 @@ title: "Microsoft Azure Cloud Detection Lab"
 date: 2025-7-25
 thumbnail: /assets/Dns.jpg # Path to your thumbnail
 ---
+
+I've recently been interested in gaining hands on expereince working with modern API authentication OAuth 2.0 . This summer, I've come across the enterprise-grade security tool Cisco Umbrella and I finally have a weekend to sit down and homelab. 
+
+My goal during this project is to build a custom reporting tool that can programatically pull DNS security logs from the Cisco Umbrella API. 
+
+
+Key Learning Objectives I'm looking to extract of this lab are 
+
+1. Implementing Modern API authentication (OAuth 2.0) 
+
+2. Handle complex data flows 
+
+3. Managing common API challenges 
+
+
+I highly encourage anyone looking to gain a better understanding of modern APIs and working with OAuth to follow along. 
+
+It's a known fact, people get better by actually DOING the thing. By following along with me you will learn 
+
+- API Setup 
+- Authentication 
+- Handling Common Pitfalls 
+- Data Processing 
