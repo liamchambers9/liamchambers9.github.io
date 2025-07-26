@@ -6,7 +6,7 @@ title: My Projects
 ## My Projects
 
 <ul class="post-list">
-  {% for project in site.projects | sort: "date" | reverse %}
+  {% for project in site.projects | sort: "date" %}
     <li>
       {% if project.thumbnail %}
         <a href="{{ project.url | relative_url }}">
