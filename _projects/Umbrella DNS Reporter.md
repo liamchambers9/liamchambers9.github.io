@@ -21,9 +21,22 @@ Key Learning Objectives I'm looking to extract of this lab are
 
 I highly encourage anyone looking to gain a better understanding of modern APIs and working with OAuth to follow along. 
 
-It's a known fact, people get better by actually DOING the thing. By following along with me you will learn 
+It's a known fact, learners get better by actually DOING the thing. By following along with me you will learn: 
 
 - API Setup 
 - Authentication 
 - Handling Common Pitfalls 
-- Data Processing 
+- Data Processing
+
+## Getting Started with the Cisco Umbella API: The Foundation 
+
+# Understanding the API Landscape 
+
+I'm going to break this down in a simple and easy way to undestand. Imagine the internet as a giant filing cabinet, Each file represents a "resource" like a list of users or a security policy. REST (Representational State Transfer) is a set of rules for how to interact with these resources using standard web requests. I like to think of it like standard actions that can be performed on these files. For example, you can: 
+
+- GET: "Get" a file (retrieve information about users)
+- POST: "Add" a new file (create a new security policy)
+- PUT: "Update" an existing file (modify an existing policy)
+- DELETE: "Remove" a file (delete a user from a list)
+
+These requests are made through specific web addresses called "endpoints," like **api.umbrella.com/users** for interacting with user information. 
