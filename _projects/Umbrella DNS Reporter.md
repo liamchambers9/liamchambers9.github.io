@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Microsoft Azure Cloud Detection Lab"
+title: "Umbrella DNS Reporter"
 date: 2025-7-25
 thumbnail: /assets/dns.jpg # Path to your thumbnail
 ---
