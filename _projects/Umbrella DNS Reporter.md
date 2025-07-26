@@ -5,7 +5,7 @@ date: 2025-7-25
 thumbnail: /assets/dns.jpg # Path to your thumbnail
 ---
 
-I've recently been interested in gaining hands on expereince working with modern API authentication OAuth 2.0 . This summer, I've come across the enterprise-grade security tool Cisco Umbrella and I finally have a weekend to sit down and homelab. 
+I've recently been interested in gaining hands on expereince working with modern API authentication OAuth 2.0. This summer, I've come across the enterprise-grade security tool Cisco Umbrella and I finally have a weekend to sit down and homelab! 
 
 My goal during this project is to build a custom reporting tool that can programatically pull DNS security logs from the Cisco Umbrella API. 
 
