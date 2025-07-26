@@ -3,7 +3,7 @@ layout: default
 title: About Me
 ---
 
-Our reliance on technology almost as a 'fifth limb' presents incredible opprotunities and on the other side of the coin, unique vulnerabilities. The intricate dance of safeguarding modern businesses, tools, machines, and life as we know is a facinating challenge I'm driven to meet. Currently, I'm a senior at Eastern Michigan University pursuing a bachelors degree while gaining experience as a Security Engineer Intern at Workiva.
+Our reliance on technology almost as a 'fifth limb' presents incredible opprotunities and the other side of the coin reads unique vulnerabilities. The seasaw of safeguarding modern businesses, tools, machines, and life as we know is a facinating challenge I'm driven to meet. Currently, I'm a senior at Eastern Michigan University pursuing a bachelors degree while gaining experience as a Security Engineer Intern at Workiva.
 
 <img src="/assets/liamrooftop.jpeg" alt="A photo of Liam Chambers" class="about-image">
 
