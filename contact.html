@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Liam Chambers, Security Engineer">
+    <title>Contact | Liam Chambers</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Liam Chambers</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <div class="hamburger">☰</div>
+    </nav>
+
+    <section class="contact">
+        <h1>Contact Me</h1>
+        <form action="https://formspree.io/f/your-form-id" method="POST" id="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+        <div class="social-links">
+            <a href="https://linkedin.com/in/liamchambers" target="_blank">LinkedIn</a>
+            <a href="https://github.com/liamchambers" target="_blank">GitHub</a>
+            <a href="https://x.com/liamchambers" target="_blank">X</a>
+        </div>
+        <p>Email: <a href="mailto:liam@liamchambers.com">liam@liamchambers.com</a></p>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
