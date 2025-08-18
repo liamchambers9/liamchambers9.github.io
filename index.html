@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liam Chambers - Security Enthusiast</title>
+    <meta name="description" content="Portfolio of Liam Chambers, dedicated to Cloud Security, Vulnerability Management, and Security Automation.">
+    <meta name="keywords" content="Liam Chambers, security engineer, cybersecurity portfolio">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="/favicon.ico">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <header class="fixed top-0 left-0 right-0 bg-gray-800 shadow-md z-50">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-xl font-bold">Liam Chambers</div>
+            <ul class="hidden md:flex space-x-6">
+                <li><a href="#home" class="hover:text-blue-400 transition duration-200">Home</a></li>
+                <li><a href="#about" class="hover:text-blue-400 transition duration-200">About</a></li>
+                <li><a href="#blog" class="hover:text-blue-400 transition duration-200">Blog</a></li>
+                <li><a href="#projects" class="hover:text-blue-400 transition duration-200">Projects</a></li>
+                <li><a href="#media" class="hover:text-blue-400 transition duration-200">Media</a></li>
+            </ul>
+            <button id="menu-toggle" class="md:hidden">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden bg-gray-800">
+            <ul class="flex flex-col space-y-4 px-4 py-4">
+                <li><a href="#home" class="hover:text-blue-400 transition duration-200">Home</a></li>
+                <li><a href="#about" class="hover:text-blue-400 transition duration-200">About</a></li>
+                <li><a href="#blog" class="hover:text-blue-400 transition duration-200">Blog</a></li>
+                <li><a href="#projects" class="hover:text-blue-400 transition duration-200">Projects</a></li>
+                <li><a href="#media" class="hover:text-blue-400 transition duration-200">Media</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-black to-gray-600">
+            <img src="images/liam.jpg" alt="Liam Chambers headshot" class="w-48 h-48 rounded-full mb-8 object-cover" loading="lazy">
+            <div class="text-center px-4">
+                <h1 class="text-5xl font-bold mb-4">Liam Chambers</h1>
+                <p class="text-xl italic max-w-2xl mx-auto">"Don't let your learning lead to knowledge. Let your learning lead to action -Jim Rohn"</p>
+            </div>
+        </section>
+
+        <section id="about" class="py-20 container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div>
+                    <h2 class="text-3xl font-bold mb-4">About Me</h2>
+                    <p class="mb-6">My name is Liam Chambers. I’m a dedicated life long learner interested in Cloud Security, Vulnerability Management and Security Automation. I’m passionate about open-source, and public learning to share ideas and inspire others. I occasionally write blogs and make videos of what I’m learning.</p>
+                    <h3 class="text-2xl font-bold mt-6 mb-2">Skills</h3>
+                    <ul class="list-disc pl-6">
+                        <li>Cloud Security</li>
+                        <li>Python</li>
+                        <li>Vulnerability Management</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="py-20 bg-gray-800">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold mb-8 text-center">Blog</h2>
+                <div class="mb-6 flex flex-wrap gap-2 justify-center">
+                    <button class="filter-btn bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded transition duration-200" data-tag="all">All</button>
+                    <button class="filter-btn bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded transition duration-200" data-tag="Web Security">Web Security</button>
+                    <button class="filter-btn bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded transition duration-200" data-tag="Tutorials">Tutorials</button>
+                    <button class="filter-btn bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded transition duration-200" data-tag="Cloud">Cloud</button>
+                    <button class="filter-btn bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded transition duration-200" data-tag="Learning Tactics">Learning Tactics</button>
+                    <button class="filter-btn bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded transition duration-200" data-tag="Journey Reflections">Journey Reflections</button>
+                </div>
+                <div class="grid md:grid-cols-2 gap-8 blog-posts">
+                    <div class="blog-post bg-gray-700 p-6 rounded-lg transition duration-300 hover:scale-105" data-tags="Web Security,Tutorials">
+                        <img src="https://via.placeholder.com/300x200?text=File+Path+Traversal" alt="File Path Traversal thumbnail" class="mb-4 w-full rounded" loading="lazy">
+                        <h3 class="text-2xl font-bold mb-2">File Path Traversal, Simple Cases</h3>
+                        <p class="text-sm mb-2">Date: 2025-06-09</p>
+                        <p class="mb-4">Exploring simple cases of file path traversal vulnerabilities and how to mitigate them.</p>
+                        <a href="blog/file-path-traversal.html" class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded transition duration-200">Read More</a>
+                    </div>
+                    <div class="blog-post bg-gray-700 p-6 rounded-lg transition duration-300 hover:scale-105" data-tags="Web Security,Tutorials">
+                        <img src="https://via.placeholder.com/300x200?text=SQL+Injection" alt="SQL Injection thumbnail" class="mb-4 w-full rounded" loading="lazy">
+                        <h3 class="text-2xl font-bold mb-2">SQL injection Vulnerability in WHERE Clause allowing retrieval of hidden data</h3>
+                        <p class="text-sm mb-2">Date: 2025-01-08</p>
+                        <p class="mb-4">Understanding SQL injection in WHERE clauses and techniques to retrieve hidden data securely.</p>
+                        <a href="blog/sql-injection.html" class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded transition duration-200">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="py-20 container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center">Projects</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-800 p-6 rounded-lg transition duration-300 hover:scale-105">
+                    <img src="https://via.placeholder.com/300x200?text=Secure+API+Gateway" alt="Secure API Gateway thumbnail" class="mb-4 w-full rounded" loading="lazy">
+                    <h3 class="text-2xl font-bold mb-2">Secure API Gateway</h3>
+                    <p class="mb-4">Developed a Python-based tool to detect anomalous network traffic, deployed in 10+ organizations.</p>
+                    <p class="mb-2">Technologies: Node.js, AWS Lambda</p>
+                    <a href="https://github.com/liamchambers/secure-api-gateway" class="text-blue-400 hover:underline">GitHub Repository</a>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg transition duration-300 hover:scale-105">
+                    <img src="https://via.placeholder.com/300x200?text=Penetration+Testing" alt="Penetration Testing Framework thumbnail" class="mb-4 w-full rounded" loading="lazy">
+                    <h3 class="text-2xl font-bold mb-2">Penetration Testing Framework</h3>
+                    <p class="mb-4">Built a custom penetration testing framework with Python scripts.</p>
+                    <p class="mb-2">Technologies: Python, Custom Scripts</p>
+                    <a href="https://github.com/liamchambers/pen-testing-framework" class="text-blue-400 hover:underline">GitHub Repository</a>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg transition duration-300 hover:scale-105">
+                    <img src="https://via.placeholder.com/300x200?text=Intrusion+Detection" alt="Intrusion Detection Dashboard thumbnail" class="mb-4 w-full rounded" loading="lazy">
+                    <h3 class="text-2xl font-bold mb-2">Intrusion Detection Dashboard</h3>
+                    <p class="mb-4">Created a dashboard for intrusion detection using React and Elasticsearch.</p>
+                    <p class="mb-2">Technologies: React, Elasticsearch</p>
+                    <a href="https://github.com/liamchambers/intrusion-detection-dashboard" class="text-blue-400 hover:underline">GitHub Repository</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="media" class="py-20 bg-gray-800">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold mb-8 text-center">Media</h2>
+                <div class="flex flex-col items-center">
+                    <img src="images/liam.jpg" alt="Liam Chambers headshot" class="w-32 h-32 rounded-full mb-4 object-cover" loading="lazy">
+                    <div class="mb-8 flex space-x-4">
+                        <a href="https://linkedin.com/in/liamchambers" class="text-blue-400 hover:underline">LinkedIn</a>
+                        <a href="https://github.com/liamchambers" class="text-blue-400 hover:underline">GitHub</a>
+                        <a href="https://youtube.com/@liamchambers" class="text-blue-400 hover:underline">YouTube</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 py-4 text-center">
+        <p>&copy; 2025 Liam Chambers. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
